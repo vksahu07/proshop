@@ -18,7 +18,6 @@ Full Stack Developer (MERN Stack)
 
 ---
 
-
 ## ✨ Features
 
 - Full featured shopping cart with quantity management
