@@ -6,6 +6,9 @@ A full-stack eCommerce web application built with the **MERN Stack** and **Redux
 💻 **GitHub:** [https://github.com/vksahu07/proshop](https://github.com/vksahu07/proshop)
 
 ---
+## 📸 Screenshot
+
+![ProShop Screenshot](C:\Users\91940\OneDrive\Pictures\Screenshots\Screenshot 2026-06-01 131815.png.png)
 
 ## 👨‍💻 Developer
 
@@ -14,6 +17,7 @@ Full Stack Developer (MERN Stack)
 📧 vksahu07939@gmail.com
 
 ---
+
 
 ## ✨ Features
 
@@ -56,6 +60,34 @@ Full Stack Developer (MERN Stack)
 - Render.com
 
 ---
+### Install Dependencies
+```bash
+npm install
+cd frontend
+npm install
+```
+
+### Run the App
+```bash
+# Frontend + Backend dono chalao
+npm run dev
+
+# Sirf Backend
+npm run server
+```
+
+### Seed Database
+```bash
+# Sample data import karo
+npm run data:import
+
+# Saara data delete karo
+npm run data:destroy
+```
+
+---
+
+## 🔑 Demo Credentials
 
 ## 🚀 Getting Started
 
