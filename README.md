@@ -8,7 +8,7 @@ A full-stack eCommerce web application built with the **MERN Stack** and **Redux
 ---
 ## 📸 Screenshot
 
-![ProShop Screenshot](C:\Users\91940\OneDrive\Pictures\Screenshots\Screenshot 2026-06-01 131815.png)
+![ProShop Screenshot](https://raw.githubusercontent.com/vksahu07/proshop/main/uploads/screenshot.png)
 
 ## 👨‍💻 Developer
 
