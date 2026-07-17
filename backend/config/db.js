@@ -1,6 +1,10 @@
 import mongoose from 'mongoose'
 
 const connectDB = async () => {
+  if (mongoose.connection.readyState >= 1) {
+    return
+  }
+
   try {
     const conn = await mongoose.connect(process.env.MONGO_URI, {
       useUnifiedTopology: true,
@@ -11,7 +15,10 @@ const connectDB = async () => {
     console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline)
   } catch (error) {
     console.error(`Error: ${error.message}`.red.underline.bold)
-    process.exit(1)
+    if (!process.env.VERCEL) {
+      process.exit(1)
+    }
+    throw error
   }
 }
 
